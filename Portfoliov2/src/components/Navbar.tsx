@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "../assets/avatar2.png";
 
 function Navbar() {
   const [show, setShow] = useState(false);

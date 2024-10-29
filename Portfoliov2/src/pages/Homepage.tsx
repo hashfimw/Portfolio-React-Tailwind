@@ -69,7 +69,7 @@ function Homepage() {
             </p>
           </div>
         </div>
-        <div className="contact pt-32 sticky">
+        <div className="contact pt-32">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-5">
             <span className="text-slate-600" id="contactme">
               Let's
