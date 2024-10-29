@@ -26,11 +26,11 @@ function Navbar() {
   let scrollActive = scroll ? "py-6 bg-white shadow" : "py-4";
   // pake tennary py 6 kalo true kalo false py nya 4
   return (
-    <div className={`navbar fixed w-full transition-all ${scrollActive}`}>
+    <div className={`navbar fixed w-full transition-all ${scrollActive} z-50`}>
       <div className="container mx-auto px-4">
         <div className="navbar-box flex items-center justify-between">
           <div className="logo">
-            <h1 className="sm:text-2xl text-xl font-semibold">
+            <h1 className="sm:text-xl text-xl font-semibold text-slate-700">
               HsfhfPortfolio.
             </h1>
           </div>
@@ -58,12 +58,12 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <div className="Avatar flex items-center gap-2 mr-0 ml-10">
-            <a href="#about">
+          <div className="Avatar ">
+            <a href="#about" className="flex xs:cursor-none">
               <img
                 src="../src/assets/avatar2.png"
                 alt="Avatar"
-                className="h-10 w-10 rounded-full border-2 border-slate-700 hover:animate-pulse"
+                className="h-10 w-10 rounded-full border-2 border-slate-700 hover:animate-pulse xs:cursor-not-allowed"
               />
               <i
                 className="ri-menu-3-line text-3xl md:hidden block"

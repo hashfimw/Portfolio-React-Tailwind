@@ -69,8 +69,8 @@ function Homepage() {
             </p>
           </div>
         </div>
-        <div className="contact pt-32">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-5">
+        <div className="contact pt-32 z-10">
+          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-5 ">
             <span className="text-slate-600" id="contactme">
               Let's
             </span>{" "}
@@ -82,27 +82,27 @@ function Homepage() {
             conversation!
           </p>
         </div>
-        <div className="sosial-footer flex items-center justify-center gap-2 mx-auto">
+        <div className="sosial-footer flex items-center justify-center gap-3 mx-auto ">
           <a href="https://github.com/hashfimw/" target="_blank">
-            <i className="ri-github-fill lg:text-6xl sm:text-6xl text-6xl hover:text-7xl"></i>
+            <i className="ri-github-fill lg:text-6xl sm:text-6xl text-6xl hover:bg-slate-400 rounded-full"></i>
           </a>
           <a
             href="https://www.instagram.com/hashfimawarid/?hl=en"
             target="_blank"
           >
-            <i className="ri-instagram-fill lg:text-6xl sm:text-6xl text-6xl hover:text-7xl"></i>
+            <i className="ri-instagram-fill lg:text-6xl sm:text-6xl text-6xl hover:bg-slate-400 rounded-2xl "></i>
           </a>
           <a href="https://id.linkedin.com/in/hashfimawarid" target="_blank">
-            <i className="ri-linkedin-box-fill lg:text-6xl sm:text-6xl text-6xl hover:text-7xl"></i>
+            <i className="ri-linkedin-box-fill lg:text-6xl sm:text-6xl text-6xl hover:bg-slate-400 rounded-lg"></i>
           </a>
           <a
             href="https://steamcommunity.com/id/hashfimawarid/"
             target="_blank"
           >
-            <i className="ri-steam-fill lg:text-6xl sm:text-6xl text-6xl hover:text-7xl"></i>
+            <i className="ri-steam-fill lg:text-6xl sm:text-6xl text-6xl  hover:bg-slate-400 rounded-full"></i>
           </a>
           <a href="https://discordapp.com/users/Piw#8292" target="_blank">
-            <i className="ri-discord-fill lg:text-6xl sm:text-6xl text-6xl hover:text-7xl"></i>
+            <i className="ri-discord-fill lg:text-6xl sm:text-6xl text-6xl  hover:bg-slate-400 rounded-full"></i>
           </a>
         </div>
       </div>
