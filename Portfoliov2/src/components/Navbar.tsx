@@ -61,7 +61,7 @@ function Navbar() {
           <div className="Avatar ">
             <a href="#about" className="flex xs:cursor-none">
               <img
-                src="../src/assets/avatar2.png"
+                src="../assets/avatar2.png"
                 alt="Avatar"
                 className="h-10 w-10 rounded-full border-2 border-slate-700 hover:animate-pulse xs:cursor-not-allowed"
               />
