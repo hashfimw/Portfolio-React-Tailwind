@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../assets/avatar2.png";
+import NavImage from "../assets/avatar2.png";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -61,7 +61,7 @@ function Navbar() {
           <div className="Avatar ">
             <a href="#about" className="flex xs:cursor-none">
               <img
-                src="../assets/avatar2.png"
+                src={NavImage}
                 alt="Avatar"
                 className="h-10 w-10 rounded-full border-2 border-slate-700 hover:animate-pulse xs:cursor-not-allowed"
               />
